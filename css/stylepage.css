@@ -1,0 +1,108 @@
+*{
+margin:0;
+padding:0;
+}
+
+body {
+background-image:linear-gradient(to right, #b3ffab, #12fff7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+}
+
+div#main{
+width:1329px;
+height:758px;
+background-image:linear-gradient(to right, #b3ffab, #12fff7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+border:10px solid #b3ffab;
+}
+
+div#cabecera{
+height:50px;
+padding:15px;
+background-image: linear-gradient(to right, #a1ffce, #faffd1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+border:5px solid #FCFFE6;
+}
+
+div#slogan{
+height:50px;
+background-image: linear-gradient(to right, #a1ffce, #faffd1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+
+}
+
+div#contenido{
+width:1000px;
+height:638px;
+float:left;
+background-image: linear-gradient(to right, #a1ffce, #faffd1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+
+}
+
+div#lateral{
+width:319px;
+height:628px;
+float:left;
+background-image: linear-gradient(to right, #a1ffce, #faffd1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+border:5px solid #FCFFE6;
+}
+
+.btn{
+	width:300px;
+        height:80px;
+	font-size:21px;
+	margin-top:auto;
+	border:double #1d976c;
+	background-image:linear-gradient(to right, #aaffa9, #11ffbd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+	color:#FFFFFF;
+	transition:all 300ms;
+}
+
+.btn:hover{
+	
+	transition:all 300ms;
+	cursor:pointer;
+	box-shadow:10px 10px 10px 0px #1d976c;
+        background-image:linear-gradient(to right, #1d976c, #93f9b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+}
+
+.btn:active{
+	
+	transition:0ms;
+	color:black;
+	transform:scale(0.9);
+}
+
+
+.rgp{
+	width:300px;
+        height:80px;
+	font-size:21px;
+	margin-top:auto;
+	border:double #1d976c;
+	background-image:linear-gradient(to right, #aaffa9, #11ffbd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+	color:#FFFFFF;
+	transition:all 300ms;
+}
+
+.rgp:hover{
+
+	transition:all 300ms;
+	cursor:pointer;
+	box-shadow:10px 10px 10px 0px #1d976c;
+        background-image:linear-gradient(to right, #1d976c, #93f9b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+}
+
+.rgp:active{
+	
+	transition:100ms;
+	color:black;
+	transform:scale(0.9);
+}
+
+
+}
+
+div#pie{
+height:140px;
+background-image: linear-gradient(to right, #a1ffce, #faffd1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+border:5px solid #FCFFE6;
+}
+
+.borra{clear:both;}
